@@ -1,0 +1,69 @@
+Create a java application for the below-mentioned task by following the below-mentioned guidelines.
+
+Task:
+Perform an operation to identify whether a number is an Armstrong Number or not.
+
+Guidelines:
+1. Clone the application named assignment-javaapp-301 from the main branch of the following remote repository: https://github.com/EPS25SAP020/assignment-javaapp-301.git
+2. Define a package named com.cognizant.javaapp301.operation in the above-mentioned application.
+3. Define a class named ArmstrongNumber in the above-mentioned package.
+4. Define a method named defineArmstrongNumber and return the definition of Armstrong number as a text.
+5. Define a method named verifyArmstrongNumber in the above-mentioned class for performing the task.
+6. The above-mentioned method:
+	a) must be accessible to any class from any package.
+	b) must contain one parameter of number type with a range from 0 to 2,147,483,647.
+	c) must perform the task and return the result as a text.
+	d) must return -1 if a negative value is passed to the parameter.
+	e) must return -2 if 0 value is passed to the parameter.
+	f) must perform the task without using any pre-defined class from java library.
+	
+Important Note:
+1. Do not modify the pom file.
+2. You can add global variables and methods as per your need other than specified in the guidelines.
+3. Use the maven provided program class named App to execute your code and check its functionality.
+4. Once finished with checking the functionality, run unit tests on your code to verify if you have completed the task as per the requirement and guidelines or not.
+5. You can use print statements for your reference while writing the code but do remember to remove them before submitting the code.
+6. The code related to the task and implementation of guidelines are considered for evaluation and not the code in App class.
+7. Once finished with the task, push the code back to the remote repository from where you have cloned the application.
+8. Do remember to push your code to the branch with your name and not the main branch.
+
+Sample Input 1:
+153
+Expected Output 1:
+Armstrong Number
+
+Sample Input 2:
+51
+Expected Output 2:
+Not an Armstrong Number
+
+Sample Input 3:
+1634
+Expected Output 3:
+Armstrong Number
+
+Sample Input 4:
+1504
+Expected Output 4:
+Not an Armstrong Number
+
+Sample Input 5:
+8208
+Expected Output 5:
+Armstrong Number
+
+Sample Input 6:
+5105
+Expected Output 6:
+Not an Armstrong Number
+
+
+Sample Input 7:
+-10
+Expected Output 7:
+-1
+
+Sample Input 8:
+0
+Expected Output 8:
+-2
