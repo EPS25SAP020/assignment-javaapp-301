@@ -3,7 +3,7 @@ package com.cognizant.javaapp301.operation;
 
 public class ArmstrongNumber {
 
-    // Method to return the definition of an Armstrong number
+ 
     public String defineArmstrongNumber() {
         return "An Armstrong number is a number that is equal to the sum of its own digits each raised to the power of the number of digits.";
     }
@@ -17,7 +17,6 @@ public class ArmstrongNumber {
         int count = 0;
         int temp = number;
 
-        // Count digits
         while (temp != 0) {
             count++;
             temp /= 10;
@@ -26,7 +25,6 @@ public class ArmstrongNumber {
         int sum = 0;
         temp = number;
 
-        // Calculate sum of digits raised to the power of count
         while (temp != 0) {
             int digit = temp % 10;
             int power = 1;
