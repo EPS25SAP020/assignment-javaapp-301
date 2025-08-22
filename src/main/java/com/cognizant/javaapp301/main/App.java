@@ -1,4 +1,4 @@
-package com.cognizant;
+package com.cognizant.javaapp301.main;
 
 import com.cognizant.javaapp301.operation.ArmstrongNumber;
 

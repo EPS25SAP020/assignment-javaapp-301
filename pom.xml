@@ -94,7 +94,7 @@
 					<artifactId>exec-maven-plugin</artifactId>
 					<version>3.5.1</version>
 					<configuration>
-						<mainClass>com.cognizant.App</mainClass>
+						<mainClass>com.cognizant.javaapp301.main.App</mainClass>
 					</configuration>
 				</plugin>
 			</plugins>
